@@ -13,5 +13,26 @@
   },
   "testforblock": {
     "usage": "<x> <y> <z> <block> [dataValue|state] [dataTag]"
-  }
+  },
+  "achievement": {
+    "usage": "<give|take> <name|*> [player]"
+  },
+  "ban": {
+    "usage": "<name> [reason …]"
+  },
+  "ban-ip": {
+    "usage": "<address|name> [reason ...]"
+  },
+  "banlist": {
+    "usage": [
+      "ips",
+      "players"
+     ]
+  },
+  "blockdata": {
+    "usage": "<x> <y> <z> <dataTag>"
+  },
+  "clear": {
+    "usage": "[player] [item] [data] [maxCount] [dataTag]"
+  },
 }
